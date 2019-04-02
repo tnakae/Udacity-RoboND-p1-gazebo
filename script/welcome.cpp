@@ -5,7 +5,7 @@ namespace gazebo {
 class WorldPluginMyRobot : public WorldPlugin {
 public:
   WorldPluginMyRobot() : WorldPlugin() {
-    printf("Hello World!\n");
+    printf("Welcome to Toshihiro NAKAE's world!\n");
   }
   void Load(physics::WorldPtr _world, sdf::ElementPtr _sdf) {}
 };
